@@ -17,7 +17,7 @@
         name: 'SettingsSlider',
         data() {
             return {
-                sliders: ['Gamma', 'Brightness', 'Contrast', 'Weight']
+                sliders: ['Gamma', 'Brightness', 'Contrast', 'Weight', 'Clarity']
             }
         }
     }
@@ -35,13 +35,13 @@
 .slidecontainer{
     background-color: rgb(74, 74, 74);
     height: 1.5rem;
-  width: 300px; 
-  padding-right: 5%;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
-  transition: opacity .2s;
+    width: 300px; 
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
 }
 
 .slidecontainer:hover{

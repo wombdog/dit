@@ -1,7 +1,8 @@
 <template>
   <nav>
     <Header></Header>
-    <SettingsSlider></SettingsSlider>
+    <DraggableWindow></DraggableWindow>
+    
 
   </nav>
   <router-view/>
@@ -9,11 +10,11 @@
 
 <script>
   import Header from '@/components/Header.vue'
-import SettingsSlider from '@/components/SettingsSlider.vue';
+  import DraggableWindow from './components/DraggableWindow.vue';
   export default {
     components: {
         Header,
-        SettingsSlider
+        DraggableWindow
       }
   }
 
