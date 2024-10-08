@@ -1,17 +1,21 @@
 <template>
   <nav>
-    <Header>
+    <Header></Header>
+    <SettingsSlider></SettingsSlider>
 
-    </Header>
   </nav>
   <router-view/>
 </template>
 
 <script>
   import Header from '@/components/Header.vue'
+import SettingsSlider from '@/components/SettingsSlider.vue';
   export default {
     components: {
-        Header
+        Header,
+        SettingsSlider
       }
   }
+
+
 </script>

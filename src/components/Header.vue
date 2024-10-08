@@ -22,7 +22,6 @@
     margin: 0;
   }
   header {
-    border-right: 0.1px solid;
     position: sticky;    
   }
   .header_text{
